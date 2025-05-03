@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "modern-normalize": "^3.0.1",
     "postcss": "^8.5.3",
     "postcss-pxtorem": "^6.1.0",
     "sass": "^1.87.0",
