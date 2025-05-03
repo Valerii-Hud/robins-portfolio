@@ -1,0 +1,46 @@
+@use '/src/sass/base/variables' as *;
+
+.experience {
+  padding: 48px 0;
+  background-color: $base;
+  font-family: Sen;
+  &__subtitle {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #8491a0;
+    font-size: 16px;
+  }
+  &__title {
+    font-size: 32px;
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  &__item {
+    &_number {
+      font-weight: 400;
+      color: #8491a0;
+    }
+    &_professional {
+      font-size: 18px;
+      color: $text;
+    }
+  }
+  &__highlighted {
+    &-green {
+      color: $green-accent;
+    }
+    &-blue {
+      color: $primary;
+    }
+    &-pink {
+      color: $pink-accent;
+    }
+  }
+  &__descr {
+    padding-top: 16px;
+    color: #8491a0;
+  }
+}
