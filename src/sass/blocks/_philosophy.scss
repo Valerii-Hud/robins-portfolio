@@ -1,0 +1,38 @@
+@use '/src/sass/base/variables' as *;
+
+.philosophy {
+  padding: 48px 0;
+  background-color: $peach-accent;
+  &__title {
+    font-size: 32px;
+    color: $base;
+  }
+  &__text {
+    margin-top: 24px;
+    font-size: 18px;
+    color: #5b6876;
+  }
+  &__more {
+    display: block;
+    position: relative;
+    margin-top: 80px;
+    font-size: 18px;
+    color: $base;
+    text-decoration: none;
+    &::after {
+      position: absolute;
+      content: '';
+      width: 125px;
+      height: 2px;
+      border-radius: 1px;
+      bottom: -5px;
+      left: 0;
+      background-color: #8491a0;
+    }
+  }
+  &__img {
+    position: absolute;
+    margin-top: 48px;
+    width: 100%;
+  }
+}
