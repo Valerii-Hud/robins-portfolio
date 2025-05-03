@@ -1,0 +1,21 @@
+@use '/src/sass/base/variables' as *;
+
+.hero {
+  min-height: 652px;
+  background-color: $base;
+  border-bottom: 2px dashed $light-grey;
+  &__img {
+    width: 360px;
+    height: 288px;
+  }
+  &__title {
+    font-size: 32px;
+    &_highlighted {
+      color: rgba(255, 255, 255, 0.5);
+    }
+  }
+  &__text {
+    color: $text;
+    font-size: 18px;
+  }
+}
