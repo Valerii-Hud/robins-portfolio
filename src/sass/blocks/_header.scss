@@ -1,0 +1,36 @@
+@use '/src/sass/base/variables' as *;
+
+.header {
+  background-color: $base;
+  padding: 24px 20px;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    min-height: 24px;
+  }
+  &__burger {
+    position: relative;
+    width: 18px;
+    height: 11px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      background-color: $light-grey;
+      width: 18px;
+      height: 3px;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      background-color: $light-grey;
+      width: 13px;
+      height: 3px;
+    }
+  }
+}
