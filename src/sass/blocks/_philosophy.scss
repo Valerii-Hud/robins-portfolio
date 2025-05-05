@@ -1,6 +1,8 @@
 @use '/src/sass/base/variables' as *;
 
 .philosophy {
+  position: relative;
+
   padding: 48px 0;
   background-color: $peach-accent;
   &__title {
@@ -32,6 +34,7 @@
   }
   &__img {
     position: absolute;
+    bottom: -100%;
     margin-top: 48px;
     width: 100%;
   }

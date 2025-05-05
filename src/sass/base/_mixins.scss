@@ -1,10 +1,6 @@
 @use '/src/sass/base/variables' as *;
 
-@mixin text {
-  color: $text;
-  font-family: Sen;
-}
-
 @mixin title {
+  color: $text;
   font-weight: 700;
 }

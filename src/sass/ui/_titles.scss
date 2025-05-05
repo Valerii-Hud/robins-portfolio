@@ -3,7 +3,6 @@
 
 .label {
   &__1 {
-    @include text;
     font-size: 117px;
     font-weight: 400;
   }
@@ -11,34 +10,25 @@
 
 .title {
   &__h1 {
-    @include text;
     @include title;
     font-size: 78px;
   }
   &__h2 {
-    @include text;
     @include title;
-
     font-size: 55px;
   }
   &__h3 {
-    @include text;
     @include title;
-    margin: 0;
     font-size: 24px;
     line-height: 36px;
   }
   &__h4 {
-    @include text;
     @include title;
-
     font-size: 18px;
     line-height: 27px;
   }
   &__h5 {
-    @include text;
     @include title;
-
     font-size: 16px;
     line-height: 24px;
   }
